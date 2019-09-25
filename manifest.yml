@@ -1,0 +1,5 @@
+---
+applications:
+- name: pbstestapp
+  host: pbstestapp
+  buildpack: python_buildpack
