@@ -5,6 +5,6 @@ port = int(os.getenv("PORT"))
 
 @route('/')
 def hello():
-    return "Hello World2!"
+    return "Hello World!"
 
 run(host='0.0.0.0', port=port, debug=True)
